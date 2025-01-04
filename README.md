@@ -17,4 +17,43 @@ To use this application:
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/ameenslm/flood-response-web-app.git
+   ```
+2. Open the `index.html` file in your browser to explore the application locally.
+3. Alternatively, visit the live site for the online version.
 
+## Live Site
+You can access the live application here: [Flood Response Web Application](https://ameenslm.github.io/flood-response-web-app/)
+
+## Technologies Used
+- **HTML**: For structuring the web pages.
+- **CSS**: For styling and layout.
+- **JavaScript**: For interactivity and dynamic functionality.
+
+## License
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+## Citation
+If you use this project in your research or publications, please cite it as follows:
+
+**Ameen Salam A**, *Flood Response Web Application*, PhD Research, University of Kerala, 2025.
+
+### BibTeX Citation
+```bibtex
+@misc{AmeenSalam_FloodResponse,
+  author       = {Ameen Salam A},
+  title        = {Flood Response Web Application},
+  year         = {2025},
+  howpublished = {\url{https://ameenslm.github.io/flood-response-web-app/}},
+  note         = {PhD Research, University of Kerala}
+}
+```
+
+## Acknowledgments
+Special thanks to the following:
+- [Indian Meteorological Department (IMD)](https://mausam.imd.gov.in/) for weather alert data.
+- [Kerala State Disaster Management Authority (KSDMA)] for first aid data and Safety Kit Checklist
+- Resources and inspiration from disaster management frameworks.
+
+## Contact
+For any questions or collaboration opportunities, feel free to reach out:
+- **Email**: ameensalam@hotmail.com
