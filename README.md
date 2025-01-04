@@ -51,7 +51,7 @@ If you use this project in your research or publications, please cite it as foll
 ## Acknowledgments
 Special thanks to the following:
 - [Indian Meteorological Department (IMD)](https://mausam.imd.gov.in/) for weather alert data.
-- [Kerala State Disaster Management Authority (KSDMA)] for first aid data and Safety Kit Checklist
+- [Kerala State Disaster Management Authority (KSDMA)] (https://sdma.kerala.gov.in/) for first aid data and Safety Kit Checklist
 - Resources and inspiration from disaster management frameworks.
 
 ## Contact
