@@ -1,0 +1,256 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+/* Index Page Background */
+#index-page {
+    background: url('images/Background1.jpeg') no-repeat center center / cover;
+}
+
+/* Header Section */
+header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+header .header-content {
+    position: relative;
+    z-index: 2;
+    margin-top: 4rem;
+}
+
+header .header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+header .header-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* CTA Button */
+.cta-button {
+    background: #FFD700;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.3s ease;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background: #FFC107;
+}
+
+/* Features Section */
+#features {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    align-items: stretch;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 3rem 1rem;
+    text-align: center;
+    flex: 1 1 calc(25% - 2rem);
+    max-width: calc(25% - 2rem);
+    min-width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-card .icon {
+    width: 150px;
+    height: 150px;
+    background: #f1efef;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+}
+
+.feature-card .icon img {
+    width: 80%;
+    height: auto;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #333;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Share Options */
+.share-options {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.share-options p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.share-options .cta-button {
+    display: inline-flex; /* Align icon and text horizontally */
+    align-items: center; /* Vertically align icon and text */
+    justify-content: center; /* Center-align content within the button */
+    margin: 0.5rem;
+    background: #25D366; /* WhatsApp green */
+    color: rgb(255, 255, 255); /* Keep text white as per original */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500; /* Consistent weight */
+    text-decoration: none;
+    transition: background 0.3s ease;
+    white-space: nowrap; /* Prevent wrapping of text inside the button */
+    width: auto; /* Ensure the button's width adjusts to fit content */
+    min-width: 50px; /* Optional: Set a minimum width for uniformity */
+}
+
+.share-options .cta-button:hover {
+    background: #20B954; /* Slightly darker WhatsApp green */
+}
+
+.share-options .cta-button:nth-child(3) {
+    background: #FF5733; /* SMS orange */
+}
+
+.share-options .cta-button:nth-child(3):hover {
+    background: #E04D28; /* Slightly darker SMS orange */
+}
+
+.share-icon {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+    vertical-align: middle; /* Align icon vertically */
+    display: inline-block; /* Keep icon inline with text */
+}
+
+/* Specific adjustment for WhatsApp icon */
+#whatsapp-share .share-icon {
+    margin-right: 3.5rem; /* WhatsApp spacing */
+}
+
+/* Specific adjustment for SMS icon */
+#sms-share .share-icon {
+    margin-right: 0.5rem; /* SMS spacing */
+}
+
+/* Checklist Page Styles */
+#checklist-page {
+    background: url('images/Background1.jpeg') no-repeat center center / cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checklist-card {
+    background: rgba(255, 255, 255, 0.749);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 800px;
+    width: 90%;
+    text-align: left;
+}
+
+.checklist-card h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.checklist-card ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.checklist-card ul li {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0.8rem 0;
+}
+
+/* Back to Home Button */
+#checklist-page .cta-button {
+    display: block;
+    margin: 2rem auto;
+    background: #FFD700;
+    color: black;
+    text-decoration: none;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+#checklist-page .cta-button:hover {
+    background: #FFC107;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
